@@ -1,0 +1,26 @@
+.container {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.InputConverter {
+    background-color: #282c40;
+    color: white!important;
+    height: 40px;
+    border: 1px solid #ffffff;
+    margin: 10px!important;
+}
+
+.InputConverter:focus {
+    background-color: #282c40;
+    border: 1px solid #ffffff;
+}
+
+.InputConverter:hover {
+    background-color: #282c40;
+    border: 1px solid #ffffff;
+}
